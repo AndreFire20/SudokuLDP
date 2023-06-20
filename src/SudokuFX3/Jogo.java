@@ -42,7 +42,7 @@ public class Jogo extends Application {
 
     @Override
     public void stop() throws Exception {
-        System.out.println("Stopping");
+        System.out.println("A parar");
         MultiClient.stop();
         if (PlayFXMLController.readMessage != null) {
             System.out.println("Stopping");
